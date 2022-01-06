@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="nancal.antdtable.AntdTable" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Antd Table</name>
+    <description>My widget description</description>
+    <icon>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</icon>
+    <properties>
+        <propertyGroup caption="General">
+            <!-- 数据源 -->
+            <propertyGroup caption="General">
+                <property key="dataSource" type="datasource" isList="true" required="true">
+                    <caption>Data source</caption>
+                    <description />
+                </property>
+            </propertyGroup>
+            <!-- 数据列 -->
+            <propertyGroup caption="Columns">
+                <property key="columns" type="object" isList="true">
+                    <caption>Columns</caption>
+                    <description />
+                    <properties>
+                        <propertyGroup caption="General">
+                            <property key="attribute" type="attribute" dataSource="../dataSource" required="true">
+                                <caption>Attribute</caption>
+                                <description />
+                                <attributeTypes>
+                                    <attributeType name="String" />
+                                    <attributeType name="AutoNumber" />
+                                    <attributeType name="Boolean" />
+                                    <attributeType name="DateTime" />
+                                    <attributeType name="Decimal" />
+                                    <attributeType name="Enum" />
+                                    <attributeType name="Integer" />
+                                    <attributeType name="Long" />
+                                </attributeTypes>
+                            </property>
+                            <property key="header" type="textTemplate" required="true">
+                                <caption>Caption</caption>
+                                <description />
+                            </property>
+                            <property key="alignment" type="enumeration" defaultValue="Left">
+                                <caption>Align</caption>
+                                <description />
+                                <enumerationValues>
+                                    <enumerationValue key="Left">Left</enumerationValue>
+                                    <enumerationValue key="Right">Right</enumerationValue>
+                                    <enumerationValue key="Center">Center</enumerationValue>
+                                </enumerationValues>
+                            </property>
+                            <property key="omit" type="boolean" defaultValue="false">
+                                <caption>Omit</caption>
+                                <description>Auto Omit,But Search Sort HighLight Disable</description>
+                            </property>
+                        </propertyGroup>
+                        <propertyGroup caption="Sort">
+                            <property key="descSort" type="boolean" defaultValue="false">
+                                <caption>Sort</caption>
+                                <description />
+                            </property>
+                            <property key="searchSort" type="boolean" defaultValue="false">
+                                <caption>Search Sort</caption>
+                                <description />
+                            </property>
+                        </propertyGroup>
+                        <propertyGroup caption="Tags">
+                            <property key="tagConfig" type="boolean" defaultValue="false">
+                                <caption>Show</caption>
+                                <description/>
+                            </property>
+                            <property key="tagColor" type="string" required="false" defaultValue="">
+                                <caption>Tag Color</caption>
+                                <description>If your attribute is a single value,Is empty</description>
+                            </property>
+                        </propertyGroup>
+                        <propertyGroup caption="Action">
+                            <property key="showAsAction" type="boolean" defaultValue="false">
+                                <caption>Show</caption>
+                                <description/>
+                            </property>
+                            <property key="actions" type="action">
+                                <caption>Action</caption>
+                                <description />
+                            </property>
+                        </propertyGroup>
+                    </properties>
+                </property>
+                <property key="pageSize" type="integer" defaultValue="10">
+                    <caption>PageSize</caption>
+                    <description />
+                </property>
+            </propertyGroup>
+            <propertyGroup caption="Style">
+                <property key="rowSize" type="enumeration" defaultValue="small">
+                    <caption>Row Size</caption>
+                    <description />
+                    <enumerationValues>
+                        <enumerationValue key="small">Small</enumerationValue>
+                        <enumerationValue key="middle">Middle</enumerationValue>
+                        <enumerationValue key="large">Large</enumerationValue>
+                    </enumerationValues>
+                </property>
+                <property key="border" type="boolean" defaultValue="false">
+                    <caption>Border</caption>
+                    <description />
+                </property>
+            </propertyGroup>
+            <propertyGroup caption="Position">
+                <property key="pageTopPosition" type="enumeration" defaultValue="none">
+                    <caption>Top Position</caption>
+                    <description />
+                    <enumerationValues>
+                        <enumerationValue key="topLeft">TopLeft</enumerationValue>
+                        <enumerationValue key="topCenter">TopCenter</enumerationValue>
+                        <enumerationValue key="topRight">TopRight</enumerationValue>
+                        <enumerationValue key="none">None</enumerationValue>
+                    </enumerationValues>
+                </property>
+                <property key="pageBottomPosition" type="enumeration" defaultValue="bottomRight">
+                    <caption>Bottom Position</caption>
+                    <description />
+                    <enumerationValues>
+                        <enumerationValue key="bottomLeft">BottomLeft</enumerationValue>
+                        <enumerationValue key="bottomCenter">BottomCenter</enumerationValue>
+                        <enumerationValue key="bottomRight">BottomRight</enumerationValue>
+                        <enumerationValue key="none">None</enumerationValue>
+                    </enumerationValues>
+                </property>
+            </propertyGroup>
+            <propertyGroup caption="header/body">
+                <property key="showHeader" type="boolean" defaultValue="true">
+                    <caption>Show</caption>
+                    <description />
+                </property>
+                <property key="fixed" type="boolean" defaultValue="false">
+                    <caption>Fixed</caption>
+                    <description />
+                </property>
+                <property key="fixedLength" type="integer" defaultValue="240">
+                    <caption>Length</caption>
+                    <description>Header fixed,body scroll</description>
+                </property>
+            </propertyGroup>
+        </propertyGroup>
+    </properties>
+</widget>
